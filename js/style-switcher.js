@@ -20,7 +20,7 @@ function setActiveStyle(color)
             style.removeAttribute("disabled");
         }
         else{
-            style.setAttributes("disabled","true");
+            style.setAttribute("disabled","true");
         }
     })
 }
